@@ -1,0 +1,73 @@
+/* .paperDrawerWidthMobile {
+    width: 50px;
+    height: 100% !important;
+    position: relative !important;
+}
+
+.paperDrawerWidthDesktop {
+    width: 180px;
+    height: 100% !important;
+    position: relative !important;
+} */
+
+/* .overlay {
+  position: absolute;    
+  height:100px;
+  background-color: gray;
+  height:100%;
+  opacity: .8;
+  z-index:9999999999
+} */
+
+.paperDrawerLeft {
+  height: 100% !important;
+  position: relative !important;
+}
+
+.mainDrawer {
+  flex-grow: 1;
+  width: 0px;
+  /* overflow-y: scroll; ERROR WINDOWS CHROME*/
+  /* min-width: 0; */
+  /* padding-left: 5px; */
+}
+
+.menuDrawerLeft {
+  font-size: 15px !important;
+}
+.menuDrawerLeftSecondary {
+  max-width: 150px;
+}
+
+.drawerLeft {
+  margin-top: 6px;
+  min-width: 210px;
+}
+
+/* .drawerLeft {
+    margin-top: 6px;
+    width: 900px;
+} */
+
+.root {
+  flex-grow: 1;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.titleDrawer {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.userDrawerClass {
+  min-height: 100vh;
+}
+
+.centralDivider {
+  margin: 6%;
+}

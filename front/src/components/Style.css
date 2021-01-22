@@ -1,0 +1,225 @@
+@media (min-width: 960px) {
+  .bgComingSoon {
+    /* The image used */
+    background-image: url('/comingSoon/comingSoonDesktop.jpg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contentComingSoon {
+    margin-top: 8%;
+    padding-left: 120px;
+    padding-right: 620px;
+  }
+  .newletter {
+    margin-top: 80px;
+  }
+  .headerComingSoon {
+    width: 100%;
+    display: flex;
+  }
+  .leftComingSoon {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 50%;
+  }
+  .rightHeaderComingSoon {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 50%;
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  .bgComingSoon {
+    margin-top: 50px;
+    background-image: url('/comingSoon/comingSoonDesktop.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+  }
+  .contentComingSoon {
+    margin-top: 20%;
+    padding-left: 10px;
+    /* padding-left:120px;
+        padding-right:620px; */
+  }
+  .newletter {
+    margin-top: 30px;
+    padding-left: 25px;
+  }
+  .headerComingSoon {
+    width: 100%;
+    display: flex;
+    margin-top: -57px;
+  }
+  .leftComingSoon {
+    padding-left: 15px;
+    padding-top: 11px;
+    width: 50%;
+  }
+  .rightHeaderComingSoon {
+    margin-top: 20px;
+    margin-right: 5px;
+    width: 50%;
+    text-align: right;
+  }
+}
+
+@media (min-width: 1920px) {
+  .subTitle {
+    padding-left: 0px;
+    width: 340px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .subTitle {
+    padding-left: 0px;
+    width: 340px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .subTitle {
+    padding-left: 0px;
+    width: 340px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .subTitle {
+    padding-left: 0px;
+    width: 340px;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1023px) {
+    .titleComingSoon {
+        margin-top: 40%;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+      }
+      .subTitle {
+        padding-left: 40px;
+        width: 340px;
+      }
+}
+
+@media (min-width: 840px) and (max-width: 959px) {
+  .titleComingSoon {
+    margin-top: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .subTitle {
+    padding-left: 40px;
+    width: 340px;
+  }
+  .newletter {
+    text-align: center;
+  }  
+}
+
+@media (min-width: 720px) and (max-width: 839px) {
+  .titleComingSoon {
+    margin-top: 40%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .subTitle {
+    padding-left: 40px;
+    width: 340px;
+    font-size: 2rem;
+  }
+  .newletter {
+    text-align: center;
+  }  
+}
+
+@media (min-width: 600px) and (max-width: 719px) {
+  .titleComingSoon {
+    margin-top: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .subTitle {
+    padding-left: 40px;
+    width: 40px;
+  }
+  .newletter {
+    text-align: center;
+  }  
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+  .titleComingSoon {
+    margin-top: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .subTitle {
+    padding-left: 40px;
+    width: 40px;
+  }
+  .newletter {
+    text-align: center;
+  }  
+}
+@media (min-width: 360px) and (max-width: 399px) {
+  .titleComingSoon {
+    margin-top: 35%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .subTitle {
+    padding-left: 40px;
+    width: 40px;
+  }
+  .newletter {
+    text-align: center;
+  }  
+}
+@media only screen and (max-width: 359px) {
+  .titleComingSoon {
+    margin-top: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .subTitle {
+    padding-left: 40px;
+    width: 40px;
+  }
+  .newletter {
+    text-align: center;
+  }  
+}
+
+.inputComingSoon {
+  width: 160px !important;
+}
+
+.titleComingSoon {
+  text-transform: uppercase;
+}

@@ -1,0 +1,270 @@
+.descriptiobBelowImage {
+  min-height: 90px;
+}
+
+.loginText {
+  font-size: 1rem;
+}
+
+.cardHomeBtoB {
+  border-radius: 7px;
+}
+
+@media (min-width: 1920px) {
+  .contentHeroBtoB {
+    min-height: 480px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+  }
+  .titleHeroBtoB {
+    margin-bottom: 60px;
+  }
+  .callToActionBtoB {
+    margin-top: 50px;
+  }
+  .headerHero {
+    margin-bottom: 100px;
+  }
+  .logoNachoNacho {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .contentHeroBtoB {
+    min-height: 480px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+  }
+  .titleHeroBtoB {
+    margin-bottom: 60px;
+  }
+  .callToActionBtoB {
+    margin-top: 50px;
+  }
+  .headerHero {
+    margin-bottom: 100px;
+  }
+  .logoNachoNacho {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .contentHeroBtoB {
+    min-height: 480px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+  }
+  .titleHeroBtoB {
+    margin-bottom: 60px;
+  }
+  .subtilte3 {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  .callToActionBtoB {
+    margin-top: 10px;
+  }
+  .headerHero {
+    margin-bottom: 100px;
+  }
+  .logoNachoNacho {
+    width: 250px;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1023px) {
+  .contentHeroBtoB {
+    min-height: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+  }
+  .titleHeroBtoB {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .subtilte3 {
+    font-size: 20px;
+  }
+  .callToActionBtoB {
+    margin-top: 10px;
+  }
+  .subtitleMobileBtoB {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .headerHero {
+    margin-bottom: 90px;
+  }
+  .logoNachoNacho {
+    width: 200px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 839px) {
+  .contentHeroBtoB {
+    min-height: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+  }
+  .titleHeroBtoB {
+    padding-top: 50px;
+    margin-bottom: 10px;
+  }
+  .subtilte3 {
+    font-size: 20px;
+  }
+  .subtitleMobileBtoB {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .headerHero {
+    margin-bottom: 10px;
+  }
+  .logoNachoNacho {
+    width: 180px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 719px) {
+  .contentHeroBtoB {
+    min-height: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+  }
+  .titleHeroBtoB {
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+  .subtitleMobileBtoB {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .headerHero {
+    margin-bottom: 40px;
+  }
+  .logoNachoNacho {
+    width: 160px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+  .contentHeroBtoB {
+    min-height: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+  }
+  .titleHeroBtoB {
+    padding-top: 20px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+  }
+  .subtitleMobileBtoB {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .headerHero {
+    margin-bottom: 20px;
+  }
+  .logoNachoNacho {
+    width: 160px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 479px) {
+  .contentHeroBtoB {
+    min-height: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+  }
+  .titleHeroBtoB {
+    padding-top: 20px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+  }
+  .subtitleMobileBtoB {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .headerHero {
+    margin-bottom: 40px;
+  }
+  .logoNachoNacho {
+    width: 160px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+  .contentHeroBtoB {
+    min-height: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+  }
+  .titleHeroBtoB {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+  }
+  .subtitleMobileBtoB {
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .headerHero {
+    margin-bottom: 40px;
+  }
+  .subtilte3 {
+    margin-bottom: 20px;
+  }
+  .logoNachoNacho {
+    margin-top: 10px;
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .contentHeroBtoB {
+    min-height: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+  }
+  .titleHeroBtoB {
+    padding-top: 20px;
+    margin-bottom: 50px;
+    font-size: 1.6rem;
+  }
+  .subtitleMobileBtoB {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .headerHero {
+    margin-bottom: 40px;
+  }
+  .logoNachoNacho {
+    width: 160px;
+  }
+}

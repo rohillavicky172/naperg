@@ -1,0 +1,434 @@
+@import 'https://fonts.googleapis.com/icon?family=Share+Tech+Mono';
+
+.nameCardDesign {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.issuedCardContainerSmall {
+  color: white;
+  border-radius: 5px;
+
+  max-width: 48px;
+  font-size: 10px;
+  height: 28px;
+  padding: 5px;
+}
+
+.issuedCardPhysical {
+  border-style: solid;
+  border-color: black;
+}
+
+.logoProduct {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.issuedCardImageVisaSmall {
+  width: 28px;
+}
+
+.constissuedCardVirtualBG {
+  background-image: url('/nachocard/blank_nachocard.png');
+}
+.constissuedCardPhysicalBG {
+  background-image: url('/nachocard/blank_nachocard_physical.png');
+}
+
+.constissuedCardRewardBG {
+  background-image: url('/nachocard/rewardNachoCard.png');
+}
+
+.issuedCard {
+  /* background-color: #1476a3; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  /* border-radius: 12px; */
+  /* margin: auto; */
+}
+
+.issuedCardContainer {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.firstLine {
+  margin-top: -6px;
+  height: 20px;
+}
+
+.issuedCardNumber {
+  font-weight: 600;
+  font-family: 'Share Tech Mono', monospace !important;
+}
+
+.issuedCardNumberCanceled {
+  border-radius: 5px;
+  color: white;
+  padding: 6px;
+}
+
+@media (min-width: 1920px) {
+  .logoProduct {
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+  .issuedCard {
+    padding: 20px;
+    height: 200px;
+    max-width: 400px;
+  }
+
+  .issuedCardNumber {
+    font-size: 23px;
+    margin-top: 60px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .issuedCardThirdRow {
+    margin-bottom: 15px !important;
+  }
+
+  .issuedCardImageVisa {
+    margin-top: 10px;
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 19px !important;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .logoProduct {
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+  .issuedCard {
+    padding: 20px;
+    height: 200px;
+    max-width: 350px;
+  }
+
+  .issuedCardNumber {
+    font-size: 23px;
+    margin-top: 70px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .issuedCardThirdRow {
+    margin-bottom: 15px !important;
+  }
+
+  .issuedCardImageVisa {
+    margin-top: 10px;
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 19px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .logoProduct {
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+  .issuedCard {
+    padding: 20px;
+    height: 200px;
+    max-width: 400px;
+  }
+
+  .issuedCardNumber {
+    font-size: 23px;
+    margin-top: 60px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .issuedCardThirdRow {
+    margin-bottom: 10px !important;
+  }
+
+  .issuedCardImageVisa {
+    margin-top: 10px;
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 19px !important;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1023px) {
+  .logoProduct {
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+  .issuedCard {
+    padding: 18px;
+    height: 200px;
+    max-width: 400px;
+  }
+
+  .issuedCardNumber {
+    font-size: 20px;
+    margin-top: 40px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .issuedCardThirdRow {
+    margin-bottom: 10px !important;
+  }
+
+  .issuedCardImageVisa {
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 19px !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 839px) {
+  .logoProduct {
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+  .issuedCard {
+    padding: 20px;
+    height: 200px;
+    /* ratio 5/8.2 = 0.6 */
+    max-width: 350px;
+  }
+
+  .issuedCardNumber {
+    font-size: 23px;
+    margin-top: 60px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .issuedCardThirdRow {
+    margin-bottom: 15px !important;
+  }
+
+  .issuedCardImageVisa {
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 19px !important;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+  .logoProduct {
+    max-height: 40px;
+    max-width: 40px;
+  }
+
+  .issuedCard {
+    padding: 20px;
+    height: 200px;
+    max-width: 350px;
+  }
+
+  .issuedCardNumber {
+    font-size: 22px;
+    margin-top: 60px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .issuedCardThirdRow {
+    margin-bottom: 15px !important;
+  }
+
+  .issuedCardImageVisa {
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 19px !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 479px) {
+  .logoProduct {
+    max-height: 30px;
+    max-width: 30px;
+  }
+
+  .issuedCard {
+    padding: 10px;
+    height: 160px;
+    max-width: 320px;
+  }
+
+  .issuedCardNumber {
+    font-size: 19px;
+    margin-top: 35px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .issuedCardThirdRow {
+    margin-bottom: 10px !important;
+  }
+
+  .issuedCardImageVisa {
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+  .logoProduct {
+    max-height: 30px;
+    max-width: 30px;
+  }
+
+  .issuedCard {
+    padding: 10px;
+    height: 150px;
+    max-width: 270px;
+  }
+
+  .issuedCardNumber {
+    font-size: 16px;
+    margin-top: 35px !important;
+    margin-bottom: 13px !important;
+  }
+
+  .issuedCardThirdRow {
+    margin-bottom: 5px !important;
+  }
+
+  .issuedCardImageVisa {
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 18px !important;
+  }
+  .issuedCardName {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .logoProduct {
+    max-height: 20px;
+    max-width: 20px;
+  }
+
+  .issuedCard {
+    padding: 10px;
+    height: 140px;
+    max-width: 260px;
+  }
+
+  .issuedCardNumber {
+    font-size: 13px;
+    margin-top: 20px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .issuedCardThirdRow {
+    font-size: 10px;
+    margin-bottom: 7px !important;
+  }
+
+  .issuedCardImageVisa {
+    height: 35px;
+  }
+
+  .issuedCardImageLogoNN {
+    width: 150px;
+  }
+
+  .listCards {
+    margin: 20px;
+  }
+
+  .iconCopyToClipboard {
+    font-size: 13px !important;
+  }
+
+  .issuedCardName {
+    font-size: 10px;
+  }
+}

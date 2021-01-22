@@ -1,0 +1,92 @@
+.flexCenterV {
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+.buttonSpace {
+    margin-bottom: 6px !important;
+}
+
+.correctionImage {
+    margin-bottom: -3px;
+}
+
+/* .smileyContentDesktop {
+    display: inline-flex;
+  } */
+
+.bigButton {
+    padding: 20px !important;
+    font-size: 1.2rem !important;
+}
+
+.colorImageLogo {
+    /* #e1325a https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(32%) sepia(36%) saturate(3561%) hue-rotate(322deg) brightness(89%) contrast(98%);
+}
+
+.imageSection {
+    fill: red !important;
+}
+
+@media (min-width: 1920px) {
+    .imageSection {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .imageSection {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .imageSection {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .imageSection {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 840px) and (max-width: 1023px) {
+    .imageSection {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 839px) {
+    .imageSection {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 719px) {
+    .imageSection {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+    .imageSection {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+    .imageSection {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .imageSection {
+        max-width: 50%;
+    }
+}

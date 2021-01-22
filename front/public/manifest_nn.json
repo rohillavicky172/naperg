@@ -1,0 +1,45 @@
+{
+  "short_name": "NachoNacho",
+  "name": "NachoNacho",
+  "icons": [
+    {
+      "src": "logo/logo_NachoNacho_512_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "logo/logo_NachoNacho_192_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo/logo_NachoNacho_96_96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "logo/logo_NachoNacho_64_64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "logo/logo_NachoNacho_32_32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "logo/logo_NachoNacho_24_24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "logo/logo_NachoNacho_16_16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://app.nachonacho.com?source=pwa",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

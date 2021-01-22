@@ -1,0 +1,19 @@
+/* .imageSubcription {
+    max-width: 60px;
+} */
+/* .imageSubcriptionMobile {
+    max-width: 40px;
+    margin-left: 10px;
+} */
+
+.marginBetweenButtonsTop {
+  height: 2px;
+  width: 2px;
+}
+.inlineButtons {
+  display: inherit;
+}
+
+.smalladdingLeft {
+  padding-left: 5px;
+}

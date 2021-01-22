@@ -1,0 +1,16 @@
+.sliceSmilley {
+  height: 70px;
+  vertical-align: middle;
+}
+
+.lowerAlpha {
+  list-style-type: lower-alpha;
+}
+
+.ulSquare {
+  list-style-type: square;
+}
+
+.imageHorizontals {
+  height: 110px;
+}

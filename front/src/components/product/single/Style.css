@@ -1,0 +1,175 @@
+.widthAutocomplete {
+  max-width: 200px;
+}
+
+.verticalLine {
+  height: calc(100% - 50px) !important;
+  width: 1px;
+  margin: 50px auto !important;
+}
+
+.imageProductBanner {
+  padding-top: 50px;
+  max-width: 336px;
+}
+
+.pricingCategText {
+  margin-right: 0px;
+  margin-left: 6px;
+}
+
+.imageProduct {
+  margin-bottom: 20px;
+}
+
+.dividerProductTop {
+  width: 60%;
+}
+
+.radioVariation {
+  margin-top: -13px !important;
+}
+
+.categoryTopCard {
+  position: absolute;
+  top: -20px;
+  color: black;
+}
+
+.framepriceTabs {
+  width: 480px;
+}
+
+/* .categoryTopCardSpan {
+  border:1px solid black;
+} */
+
+.linkCategory {
+  color: black;
+}
+
+.linkCategory:hover {
+  color: #e1325a !important;
+}
+
+@media (min-width: 1920px) {
+  .badgeContent {
+    width: 200px;
+    height: 310px;
+  }
+
+  .loginBox {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .badgeContent {
+    width: 200px;
+    height: 310px;
+  }
+
+  .loginBox {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .badgeContent {
+    width: 200px;
+    height: 310px;
+  }
+
+  .loginBox {
+    width: 60%;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1023px) {
+  .badgeContent {
+    width: 200px;
+    height: 310px;
+  }
+
+  .loginBox {
+    width: 60%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 839px) {
+  .badgeContent {
+    width: 200px;
+    height: 310px;
+  }
+
+  .loginBox {
+    width: 60%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+  .badgeContent {
+    width: 360px;
+    height: 120px;
+  }
+
+  .loginBox {
+    width: 100%;
+  }
+  .imageProduct {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .badgeContent {
+    width: 90%;
+    height: 120px;
+  }
+
+  .loginBox {
+    width: 100%;
+  }
+  .imageProduct {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.prices {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.badgeContent {
+  margin-bottom: 20px;
+}
+
+/* .CardContent {
+    margin-bottom: 20px;
+  } */
+
+.description {
+  /* white-space: pre-line; */
+}
+
+.description li {
+  /* margin: 20px !important; */
+}
+
+.titleProduct {
+  height: 45px;
+  margin: 0px;
+}
+
+.shortDescriptionDiv {
+  min-height: 35px;
+}
+
+.badgeOverride {
+  width: 40px !important;
+  height: 40px !important;
+  font-weight: 400;
+  /* border-radius: 10%!important; */
+}

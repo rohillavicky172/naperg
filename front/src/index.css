@@ -1,13 +1,940 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @import 'https://fonts.googleapis.com/css?family=Fira+Sans';
+@import 'https://fonts.googleapis.com/css?family=Quicksand';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro'; */
+
+/* @import 'https://fonts.googleapis.com/css?family=Mukta'; */
+
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+/* @import 'https://fonts.googleapis.com/css?family=Noticia+Text'; */
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+b {
+  font-weight: 900;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media print {
+  /* @page {
+    margin: 0.1px;
+  } */
+  /*
+  body {
+    margin: 1.6cm;
+  } */
+
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* scroll-behavior: smooth; */
+}
+
+.public-DraftStyleDefault-block {
+  margin: 0px 0 !important;
+}
+
+h1,
+h2,
+h3 {
+  color: #1d2738;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 10px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+h4 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #676767;
+}
+
+body {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #676767;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Ubuntu', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  /* font-family: "Roboto","HelveticaNeue","Helvetica Neue", sans-serif; */
+  /* font-family: "helvetica" neue,aktiv-grotesk-std,helvetica,arial,freesans,liberation sans,numbus sans l,sans-serif; */
+  /* font-family: "Montserrat"; */
+  /* font-family: "norms", sans-serif; */
+  /* font-family: "Fira Sans"; */
+  /* font-family: "Quicksand"; */
+  /* font-family: "Source Sans Pro"; */
+  /* font-family: 'Mukta'; */
+  /* font-family: 'Noticia Text', serif; */
+}
+
+.grey {
+  color: #676767;
+}
+
+textarea,
+select,
+input,
+button,
+a,
+li {
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.inputNumber {
+  height: auto !important;
+}
+
+button {
+  text-transform: none !important;
+}
+
+/* li {
+    margin-bottom: -10px;
+} */
+
+.liClass {
+  margin: 10px 0;
+}
+
+strong {
+  font-weight: 900 !important;
+}
+
+.fontWeight19 {
+  font-weight: 900 !important;
+}
+
+.fontWeight18 {
+  font-weight: 800 !important;
+}
+
+.fontWeight16 {
+  font-weight: 600 !important;
+}
+
+.fontWeight15 {
+  font-weight: 500 !important;
+}
+
+.fontWeight14 {
+  font-weight: 400 !important;
+}
+
+.fontWeight13 {
+  font-weight: 300 !important;
+}
+
+.fontWeight12 {
+  font-weight: 200 !important;
+}
+
+.fontWeight11 {
+  font-weight: 150 !important;
+}
+
+.fontWeight10 {
+  font-weight: 100 !important;
+}
+
+.textSize20 {
+  font-size: 5rem !important;
+}
+
+.textSize16 {
+  font-size: 3.8rem;
+}
+
+.textSize15 {
+  font-size: 3.5rem !important;
+}
+
+.textSize14 {
+  font-size: 2.7rem !important;
+}
+
+.textSize13 {
+  font-size: 2.3rem !important;
+}
+
+.textSize12 {
+  font-size: 1.5rem !important;
+}
+
+.textSize11 {
+  font-size: 1.15rem !important;
+}
+
+.textSize10 {
+  font-size: 1rem !important;
+}
+
+.textSize9 {
+  font-size: 0.92rem !important;
+}
+
+.textSize8 {
+  font-size: 0.88rem !important;
+}
+
+.textSize7 {
+  font-size: 0.8rem !important;
+}
+
+.textSize6 {
+  font-size: 0.7rem !important;
+}
+
+.textSize5 {
+  font-size: 0.6rem !important;
+}
+
+.textSize3 {
+  font-size: 0.5rem !important;
+}
+
+.textSize2 {
+  font-size: 0.35rem;
+}
+
+.margin0 {
+  margin: 0px;
+}
+
+.margin1 {
+  margin: 5px;
+}
+
+.margin2 {
+  margin: 10px;
+}
+
+.margin3 {
+  margin: 15px;
+}
+
+.margin4 {
+  margin: 20px;
+}
+
+.margin5 {
+  margin: 30px;
+}
+
+.margin6 {
+  margin: 40px;
+}
+
+.margin7 {
+  margin: 60px;
+}
+
+.margin8 {
+  margin: 80px;
+}
+
+.margin9 {
+  margin: 100px;
+}
+
+.margin10 {
+  margin: 120px;
+}
+
+.padding1 {
+  padding: 5px;
+}
+
+.padding2 {
+  padding: 10px;
+}
+
+.padding3 {
+  padding: 15px;
+}
+
+.padding4 {
+  padding: 20px;
+}
+
+.padding5 {
+  padding: 30px;
+}
+
+.padding6 {
+  padding: 40px;
+}
+
+.padding7 {
+  padding: 60px;
+}
+
+.padding8 {
+  padding: 80px;
+}
+
+.padding9 {
+  padding: 100px;
+}
+
+.padding2RightLeft {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.padding10RightLeft {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.dividerSection {
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.verySmallImg {
+  max-width: 40px;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+.textTransparencyWhiteMax {
+  color: rgba(255, 255, 255, 0) !important;
+}
+
+.textTransparencyWhite3 {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.bgHover:hover {
+  background-color: #fafafa !important;
+}
+
+.textTransparencyWhite1 {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.flexGrow {
+  flex-grow: 1;
+}
+
+.flex {
+  flex: 1;
+}
+
+.marginTopAuto {
+  margin-top: auto !important;
+}
+
+.floatRight {
+  float: right;
+}
+
+/* .red {
+    color: #e33e7f !important;
+} */
+
+.red {
+  color: #fd8723 !important;
+}
+
+.link {
+  color: #1476a3;
+}
+
+.link:hover {
+  color: black;
+}
+
+.secondary {
+  color: #fd8723 !important;
+}
+
+.primary {
+  color: #1476a3 !important;
+}
+
+.primaryBG {
+  background-color: #1476a3 !important;
+}
+
+.reward {
+  color: #7d030d !important;
+}
+
+.black {
+  /* color: #676767 !important; */
+  color: black;
+}
+
+/* .pink {
+  color: #e33e7f !important;
+} */
+
+.pink {
+  color: #fd8723 !important;
+}
+
+.white {
+  color: white !important;
+}
+
+.white2 {
+  color: rgb(255, 255, 255);
+}
+
+.white4 {
+  color: rgb(220, 220, 220);
+}
+
+.whiteBlue {
+  color: rgb(208, 227, 255);
+}
+
+.blue {
+  /* color: #1476a3; */
+  color: rgb(152, 182, 228);
+}
+
+.bgPurple {
+  background-color: #3d137c;
+}
+
+.bgPrimary {
+  background-color: #1476a3;
+}
+
+.bgSecondary {
+  background-color: #fd8723;
+}
+
+.bgPink {
+  background-color: #fd8723;
+}
+
+/* .bgPink {
+  background-color: #e33e7f;
+} */
+
+.bgGrey {
+  background-color: #fafafa !important;
+}
+
+.bgGrey2 {
+  background-color: #f3f3f3 !important;
+}
+
+.bgGrey3 {
+  background-color: #949494 !important;
+}
+
+.grey1 {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.grey4 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.grey5 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.grey6 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.grey7 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.grey8 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.grey9 {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.inline {
+  display: inline;
+}
+
+.hide {
+  display: none !important;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tar {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.width100per {
+  width: 100% !important;
+}
+
+.cursor {
+  cursor: pointer !important;
+}
+
+.cursorDefault {
+  cursor: default !important;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+/* #password,
+.password {
+  height: auto !important;
+} */
+
+@media only screen and (min-width: 769px) {
+  .paperIn {
+    padding: 20px;
+  }
+
+  .paperOut {
+    margin: 10px;
+  }
+}
+
+.heightInherit {
+  height: inherit !important;
+}
+
+.marginAuto {
+  margin: auto !important;
+}
+
+.inputWidth {
+  width: 150px;
+}
+
+.imageSize5 {
+  max-width: 40px;
+}
+
+#root {
+  /* max-width: 1080px; */
+  min-height: 100%;
+  margin: auto;
+  display: grid;
+  /* grid-template-rows: auto 1fr auto;   */
+}
+
+@media only screen and (max-width: 768px) {
+  .paperIn {
+    padding: 10px;
+  }
+
+  .paperOut {
+    margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 959px) {
+  .hideDesktop {
+    display: none;
+  }
+
+  .Select,
+  .inputResponsive {
+    width: 260px !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .hideMobile {
+    display: none;
+  }
+
+  .Select,
+  .inputResponsive {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .content {
+    padding: 30px 60px 30px 60px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 230px;
+    padding-left: 230px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 300px;
+    padding-left: 300px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .content {
+    padding: 30px 60px 30px 60px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .content {
+    padding: 30px 60px 30px 60px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 180px;
+    padding-left: 180px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 180px;
+    padding-left: 180px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .content {
+    padding: 30px 60px 30px 60px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 170px;
+    padding-left: 170px;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1023px) {
+  .content {
+    padding: 30px 60px 30px 60px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 130px;
+    padding-left: 130px;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 959px) {
+  .content {
+    padding: 30px 60px 30px 60px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 839px) {
+  .content {
+    padding: 30px 60px 30px 60px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 719px) {
+  .content {
+    padding: 20px 20px 10px 10px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+  .content {
+    padding: 20px 20px 10px 10px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+  .content {
+    padding: 20px 20px 10px 10px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .content {
+    padding: 20px 8px 10px 0px;
+  }
+
+  .responsiveMargin1 {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  .responsiveMargin2 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .imageSection {
+    max-width: 70%;
+  }
+
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1023px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 839px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 719px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .marginVerticalResponsive {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+pre {
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+}
+
+.tableInner {
+  display: inline-block;
+  width: 14em;
+  /* height: 6em; */
+  margin: 0.5em;
+  padding: 3px;
+  white-space: normal;
+  text-align: center;
+}
+
+.circleStyle {
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  background-color: #fd8723;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+
+.iconAlignText {
+  vertical-align: middle !important;
+}
+
+.iconAlignTextBottom {
+  vertical-align: bottom !important;
+}
+
+.headerCategories {
+  margin-top: 5px;
+  background-color: #f5f7f7 !important;
+  font-size: 40px;
+}
+
+.tabHeaderCategories {
+  font-size: 16px;
+}
+
+.tabSettings {
+  flex-direction: row !important;
+  width: auto !important;
+  text-align: left !important;
+}
+
+.rootTabSettings {
+  display: initial !important;
+  text-align: left !important;
+  min-height: 10px !important;
+}
+
+/* for chrome */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* for mozilla */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.seeAllClass {
+  margin-left: 10px;
+}
+
+.arrowRight {
+  padding-top: 5px;
+}
+
+.dialogContentRedeem {
+  z-index: 99999 !important;
 }

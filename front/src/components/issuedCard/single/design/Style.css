@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/icon?family=Share+Tech+Mono';
+
+@media (orientation: landscape) {
+  .issuedCardContainerFull {
+    padding-top: 10px;
+    margin: auto;
+    position: relative;
+    color: white;
+    width: 68%;
+  }
+  .aspect-ratio {
+    width: 100%;
+    height: auto;
+  }
+  .issuedCardFull {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    font-size: 3vw;
+  }
+
+  .firstLineFull {
+    margin: 30px;
+  }
+  .issuedCardThirdRowFull {
+    margin: 30px;
+  }
+  .issuedCardNumberFull {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 5vw;
+    font-weight: 600;
+    font-family: 'Share Tech Mono', monospace !important;
+  }
+
+  .dialogPaper {
+    height: 100%;
+  }
+  .issuedCardNameFull {
+    /* font-size: 5vw; */
+  }
+}
+@media (orientation: portrait) {
+  .rotateFull {
+    transform: rotate(90deg) translateX(35px);
+  }
+  .issuedCardContainerFull {
+    position: relative;
+    color: white;
+    width: 135%;
+  }
+  .aspect-ratio {
+    width: 100%;
+    height: auto;
+  }
+  .issuedCardFull {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    font-size: 5vw;
+  }
+
+  .issuedCardNameFull {
+    font-size: 5vw;
+  }
+
+  .firstLineFull {
+    margin: 30px;
+  }
+  .issuedCardThirdRowFull {
+    margin: 30px;
+  }
+  .issuedCardNumberFull {
+    /* margin-top: 20px !important; */
+    font-size: 9vw;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Share Tech Mono', monospace !important;
+  }
+
+  .dialogPaper {
+    height: 100%;
+  }
+}
