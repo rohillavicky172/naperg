@@ -72,7 +72,6 @@ npx prisma generate
 4. Start the server. It will be accsisble http://localhost:4000
 ```
 yarn start
-
 ```
 
 ## Frontend
