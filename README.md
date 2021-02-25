@@ -44,16 +44,15 @@ cd naperg
 ```
 
 
-3. Backend
-    1. Install the server - # Prisma & Graphql (port 4000)
+## Server
+1. Install the server - # Prisma & Graphql (port 4000)
 
 ```
 cd server
 yarn
 ```
 
-   2. migrate the database with `Prisma migrate`
-   run:
+2. migrate the database with `Prisma migrate` run:
 
 ```
 npx prisma migrate dev --preview-feature
@@ -64,27 +63,27 @@ A user will be automatically created from the [`seed.ts`](https://github.com/ala
 - role: `ADMIN`
 
 
-    3. generate the prisma client
+3. generate the prisma client
 
 ```
 npx prisma generate
 ```
 
-    4. Start the server. It will be accsisble http://localhost:4000
+4. Start the server. It will be accsisble http://localhost:4000
 ```
 yarn start
 
 ```
 
-4. Frontend
-    1. Install the frontEnd - ReactJs (port 3000). In a new terminal run:
+## Frontend
+1. Install the frontEnd - ReactJs (port 3000). In a new terminal run:
 ```sh
 cd react
 yarn
 yarn start
 ```
 
-    2. Start the frontend. Go to url: http://localhost:3000
+2. Start the frontend. Go to url: http://localhost:3000
 
 ## Features
 
