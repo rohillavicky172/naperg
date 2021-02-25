@@ -69,7 +69,7 @@ A user will be automatically created from the [`seed.ts`](https://github.com/ala
 npx prisma generate
 ```
 
-4. Start the server. It will be accsisble http://localhost:4000
+4. Start the server (http://localhost:4000)
 ```
 yarn start
 ```
