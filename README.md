@@ -80,10 +80,13 @@ yarn start
 ```sh
 cd react
 yarn
-yarn start
 ```
 
-2. Start the frontend. Go to url: http://localhost:3000
+2. Start the frontend. 
+```
+yarn start
+```
+3. Go to url: http://localhost:3000
 
 ## Features
 
