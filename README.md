@@ -2,7 +2,7 @@
 </div>
   
 <h1 align="center"><strong>Boilerplate for a Fullstack GraphQL App with React & Prisma</strong></h1>
-<h3 align="center">Authentication</h3>
+
 
 <br />
 
