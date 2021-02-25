@@ -35,7 +35,7 @@
 
 1. Clone the repo to your computer
 ```
-git clone https://github.com/alan345/naperg/` 
+git clone https://github.com/alan345/naperg/
 ```
 
 2. Go the the repo
