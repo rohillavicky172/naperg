@@ -33,7 +33,25 @@
 
 ## Getting started
 
-1. migrate the database with `Prisma migrate`
+1. Clone the repo to your computer
+```
+git clone https://github.com/alan345/naperg/` 
+```
+
+2. Go the the repo
+```
+cd naperg
+```
+
+3. Install the server (backend):
+
+```sh
+# Prisma & Graphql (port 4000)
+cd server
+yarn
+```
+
+3.1 migrate the database with `Prisma migrate`
    run:
 
 ```
@@ -45,30 +63,25 @@ A user will be automatically created from the [`seed.ts`](https://github.com/ala
 - role: `ADMIN`
 
 
-2. generate the prisma client
+5. generate the prisma client
 
 ```
 npx prisma generate
 ```
 
-3. In 2 different terminals:
-
-```sh
-# Prisma & Graphql (port 4000)
-
-cd server
-yarn
+6. Start the server. It will be accsisgble http://localhost:4000
+```
 yarn start
 
 ```
 
+7. 
 ```sh
 # Frontend: ReactJs (port 3000)
 
 cd react
 yarn
 yarn start
-
 ```
 
 Go to url: http://localhost:3000
