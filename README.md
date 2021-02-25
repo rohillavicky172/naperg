@@ -47,13 +47,12 @@ cd naperg
 3. Backend
     1. Install the server - # Prisma & Graphql (port 4000)
 
-```sh
-
+```
 cd server
 yarn
 ```
 
-    2. migrate the database with `Prisma migrate`
+   2. migrate the database with `Prisma migrate`
    run:
 
 ```
