@@ -62,6 +62,10 @@ A user will be automatically created from the [`seed.ts`](https://github.com/ala
 - pass: `admin`
 - role: `ADMIN`
 
+Check you databse with [`Prisma Studio`](https://www.prisma.io/docs/concepts/components/prisma-studio)
+```
+$ npx prisma studio
+```
 
 3. generate the prisma client
 
