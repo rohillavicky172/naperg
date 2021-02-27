@@ -83,7 +83,7 @@ to reset your database if needed, use:
 npx prisma migrate reset --preview-feature 
 ```
 
-# 3. Seed your Database 
+#### 3. Seed your Database 
 ```
 npx prisma db seed --preview-feature
 ```
