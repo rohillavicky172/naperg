@@ -96,7 +96,7 @@ A new user will be created from [`seed.ts`](https://github.com/alan345/naperg/bl
 ```
 $ npx prisma studio
 ```
-![image](https://user-images.githubusercontent.com/15246526/109402290-910ac200-7909-11eb-84e9-c5875bcac6eb.png)
+![image](https://user-images.githubusercontent.com/15246526/109402305-b4ce0800-7909-11eb-88d7-924e4db3d74f.png)
 
 
 #### 5. generate the prisma client
