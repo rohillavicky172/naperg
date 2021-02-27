@@ -87,7 +87,7 @@ npx prisma migrate reset --preview-feature
 ```
 npx prisma db seed --preview-feature
 ```
-1 user will be created from this file [`seed.ts`](https://github.com/alan345/naperg/blob/master/server/prisma/seed.ts#L6-L14) file.
+A new user will be created from this file [`seed.ts`](https://github.com/alan345/naperg/blob/master/server/prisma/seed.ts#L6-L14) file.
 - login: `admin@naperg.com`
 - pass: `admin`
 - role: `ADMIN`
