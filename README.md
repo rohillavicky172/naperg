@@ -57,6 +57,10 @@ yarn
 ```
 npx prisma migrate dev --preview-feature
 ```
+Pick a name for your first migration. Example "init"
+![image](https://user-images.githubusercontent.com/15246526/109401975-032dd780-7907-11eb-8ec8-99ad6abaa6d0.png)
+
+
 
 to reset your database if needed, use: 
 ```
