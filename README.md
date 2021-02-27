@@ -33,26 +33,26 @@
 
 ## Getting started
 
-1. Clone the repo to your computer
+#### 1. Clone the repo to your computer
 ```
 git clone https://github.com/alan345/naperg/
 ```
 
-2. Go the the repo
+#### 2. Go the the repo
 ```
 cd naperg
 ```
 
 
 ## Server
-1. Install the server - # Prisma & Graphql (port 4000)
+#### 1. Install the server - # Prisma & Graphql (port 4000)
 
 ```
 cd server
 yarn
 ```
 
-2. migrate the database with `Prisma migrate` run:
+#### 2. migrate the database with `Prisma migrate` run:
 
 ```
 npx prisma migrate dev --preview-feature
@@ -92,41 +92,43 @@ npx prisma db seed --preview-feature
 - pass: `admin`
 - role: `ADMIN`
 
-4. Check you databse with [`Prisma Studio`](https://www.prisma.io/docs/concepts/components/prisma-studio)
+#### 4. Check you databse with [`Prisma Studio`](https://www.prisma.io/docs/concepts/components/prisma-studio)
 ```
 $ npx prisma studio
 ```
 
-5. generate the prisma client
+#### 5. generate the prisma client
 
 ```
 npx prisma generate
 ```
 
-6. Start the server (http://localhost:4000)
+#### 6. Start the server (http://localhost:4000)
 ```
 yarn start
 ```
-7. Log in to the app with whis Admin User:
 
-- login: `admin@naperg.com`
-- pass: `admin`
-- role: `ADMIN`
 
 
 ## Frontend
-1. Install the frontEnd - ReactJs (port 3000). In a new terminal run:
+#### 1. Install the frontEnd - ReactJs (port 3000). In a new terminal run:
 ```sh
 cd react
 yarn
 ```
 
-2. Start the frontend. 
+#### 2. Start the frontend. 
 ```
 yarn start
 ```
-3. Go to url: http://localhost:3000
+#### 3. Go to url: http://localhost:3000
 
+#### 4. Log in to the app with whis Admin User:
+
+- login: `admin@naperg.com`
+- pass: `admin`
+- role: `ADMIN`
+- 
 ## Features
 
 - **Scalable GraphQL server:** The server uses [`apollo-server`](https://www.apollographql.com/docs/apollo-server/)
