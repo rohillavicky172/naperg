@@ -58,8 +58,24 @@ yarn
 npx prisma migrate dev --preview-feature
 ```
 Pick a name for your first migration. Example "init"
-![image](https://user-images.githubusercontent.com/15246526/109401975-032dd780-7907-11eb-8ec8-99ad6abaa6d0.png)
+```
+> npx prisma migrate dev --preview-feature
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": SQLite database "dev.db" at "file:./dev.db"
 
+SQLite database dev.db created at file:./dev.db
+
+✔ Name of migration … init
+The following migration(s) have been created and applied from new schema changes:
+
+migrations/
+  └─ 20210227221806_init/
+    └─ migration.sql
+
+✔ Generated Prisma Client (2.17.0) to ./node_modules/@prisma/client in 71ms
+
+Everything is now in sync.
+```
 
 
 to reset your database if needed, use: 
