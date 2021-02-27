@@ -58,7 +58,7 @@ yarn
 npx prisma migrate dev --preview-feature
 ```
 
-to reset your database, use: 
+to reset your database if needed, use: 
 ```
 npx prisma migrate reset --preview-feature 
 ```
