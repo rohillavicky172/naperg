@@ -83,26 +83,36 @@ to reset your database if needed, use:
 npx prisma migrate reset --preview-feature 
 ```
 
-A user will be automatically created from the [`seed.ts`](https://github.com/alan345/naperg/blob/master/server/prisma/seed.ts#L6-L14) file.
+3. See your Database 
+```
+npx prisma db seed --preview-feature
+```
+1 user will be created from this file [`seed.ts`](https://github.com/alan345/naperg/blob/master/server/prisma/seed.ts#L6-L14) file.
 - login: `admin@naperg.com`
 - pass: `admin`
 - role: `ADMIN`
 
-Check you databse with [`Prisma Studio`](https://www.prisma.io/docs/concepts/components/prisma-studio)
+4. Check you databse with [`Prisma Studio`](https://www.prisma.io/docs/concepts/components/prisma-studio)
 ```
 $ npx prisma studio
 ```
 
-3. generate the prisma client
+5. generate the prisma client
 
 ```
 npx prisma generate
 ```
 
-4. Start the server (http://localhost:4000)
+6. Start the server (http://localhost:4000)
 ```
 yarn start
 ```
+7. Log in to the app with whis Admin User:
+
+- login: `admin@naperg.com`
+- pass: `admin`
+- role: `ADMIN`
+
 
 ## Frontend
 1. Install the frontEnd - ReactJs (port 3000). In a new terminal run:
